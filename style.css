@@ -1,0 +1,72 @@
+body{
+    font-family: arial;
+    display: grid;
+    background: #f7f7f7;
+    margin: 0px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+     
+}
+
+.abas{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.abas a {
+    background: #ffffff;
+    font: #00000000;
+    padding: 10px;
+    border-radius: 4%;
+    text-decoration: none;
+    margin-top: 60px;
+
+}
+
+.bike{
+    max-width: 100%;
+    grid-column: 2;
+    grid-row: 1 / 4;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    margin-top: 50px;
+    place-items: end;
+    gap: 20px; 
+    
+}
+
+.pa{
+    display: grid;
+    gap: 20px;
+    place-items: center end;
+}
+
+.pa p{
+    text-align: end;
+}
+
+.grid a{
+    background: red;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
