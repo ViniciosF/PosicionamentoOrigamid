@@ -80,6 +80,42 @@ p{
     display: block;
 }
 
+/*segunda parte*/
+
+.subtitulo{
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+}
+
+
+.conteudo-2{
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.conteudo-22{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.conteudo-22 p{
+    grid-column: 2;  
+}
+
+.rodape{
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
 
 
 
