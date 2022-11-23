@@ -24,7 +24,7 @@ h3{
 }
 
 p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .header{
@@ -43,12 +43,20 @@ p{
 .menu a{
     display: block;
     background: rgb(255, 255, 255);
-    padding: 15px 20px;
+    padding: 1rem 2rem;
     border-radius: 4px;
     text-decoration: none;
     color: #000;
-
+    border: 0.1rem solid transparent;
+    
 }
+
+.menu a:hover{
+    border: 0.1rem solid red;
+  
+}
+
+
 
 .conteudo{
     display: grid;
@@ -64,26 +72,33 @@ p{
     position: relative;
     align-content: center;
     justify-items: end; 
-    gap: 20px;
+    gap: 1.25rem;
     padding: 40px;
 }
 
-.detalhe{
+.conteudo-1::before{
+    content: "";
     width: 60px;
     height: 4px;
     background: red;
     position: absolute;
     top: 30px;
     right: -30px;
-
 }
+
+
 
 .botao{
     background: #e21;
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 1rem 1.25rem;
     color: #fff;
     border-radius: 4px;
+}
+
+.botao:hover{
+    background: #900;
+    transform: scale(1.1);
 }
 
 .bike{
@@ -94,12 +109,14 @@ p{
 /*segunda parte*/
 
 .subtitulo{
-    font-size: 64px;
+    font-size: 4rem;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.2);
     text-align: right;
     padding: 40px;
     align-self: center;
+    background-image: url(/img/onda.svg);
+   
 }
 
 
@@ -115,9 +132,20 @@ p{
     padding: 20px;
 }
 
+.conteudo-22:nth-child(odd){
+    background: #f7f7f7;
+
+}
+
+.conteudo-22:hover{
+    border-left: .3rem solid red;
+}
+
 .conteudo-22 p{
     grid-column: 2;  
 }
+
+
 
 .rodape{
     background: white;
